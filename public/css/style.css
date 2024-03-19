@@ -2,6 +2,10 @@
 :root{
     --primary-color: #41A0E4;
 }
+
+.login{
+    font-family: "Poppins", sans-serif; 
+}
 .navbar{
     font-family: 'SF Pro Display', sans-serif;
     border-bottom: 1px solid #E4E4E4;
@@ -44,7 +48,7 @@
     font-size: 14px;
     font-weight: 700;
     padding: 8px 16px;
-    background: #41A0E4;
+    background:  var(--primary-color);
 
 } 
 
@@ -97,4 +101,49 @@ footer .sub-menu p{
     font-weight: 400;
     line-height: 14.32px;
     letter-spacing: 0.25em;
+}
+
+/* LOGIN PAGE */
+.login .left-side{
+    background-image: url('../images/login-bg.png');
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 700px;
+}
+
+.left-side h1{
+    font-size: 48px;
+    color: #1A1111;
+}
+
+.left-side p{
+    width: 430px;
+    font-size: 14px;
+}
+
+.right-side h5{
+    font-size: 24px;
+    color: #3E3E3E;
+}
+
+.right-side p{
+    width: 367px;
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.right-side form label{
+    color: #757575;
+    font-size: 12px;
+}
+
+.right-side form input{
+    border: 1px solid #676C73;
+    background-color: #ffff;
+    border-radius: 0px;
+}
+
+.login .btn-login{
+    background-color: var(--primary-color);
 }

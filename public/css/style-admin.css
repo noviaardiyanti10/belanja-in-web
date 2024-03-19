@@ -1,0 +1,40 @@
+*{
+    font-family: "Poppins", sans-serif; 
+}
+
+:root{
+    --primary-color: #41A0E4;
+}
+
+.img-profile{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #C4C4C4;
+}
+
+.profile .greetings{
+    color: var(--primary-color);
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.profile .username{
+    font-size: 14px;
+}
+
+.navbar-brand{
+    font-size: 14px;
+}
+
+.sidebar a{
+    color: #1A1111;
+}
+
+.bg-white{
+    background-color: #ffff !important;
+}
+
+.sidebar{
+    width: 245px;
+}
